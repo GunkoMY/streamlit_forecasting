@@ -51,7 +51,7 @@ end_time = st.slider(
     step=timedelta(days=30),
     format="MM/DD/YY")
 
-fig, ax = plt.subplots(figsize=(20,10))
+fig, ax = plt.subplots()
 sns.barplot(x='date_date', y=option_col,
              data=data[
                  (start_time <= data['date_date']) &
