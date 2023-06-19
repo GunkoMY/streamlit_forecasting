@@ -146,7 +146,7 @@ def do_forecast():
     fcst_filtered =  fcst[fcst['ds'] > max_date]    
     st.dataframe(fcst_filtered.rename(columns={'yhat': 'прогноз',
                                                'yhat_lower': 'нижний предел',
-                                               'yhat_upper': 'верхний предел'}))
+                                               'yhat_upper': 'верхний предел'}).set_index('ds'))
 
     """
     На следующем изображении показаны исторические значения, использумые для обучения (черные точки),
