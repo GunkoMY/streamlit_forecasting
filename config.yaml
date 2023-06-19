@@ -1,0 +1,16 @@
+cookie:
+  expiry_days: 30
+  key: $2b$12$v909w8F.4WJA7gZkkpBUfeYouGP/EFNTme5HtadB.Y7axsRYoQUla
+  name: mikhail
+credentials:
+  usernames:
+    georgii:
+      email: boss@mail.ru
+      name: georgii
+      password: $2b$12$v909w8F.4WJA7gZkkpBUfeYouGP/EFNTme5HtadB.Y7axsRYoQUla
+    mikhail:
+      email: sosopavliashvilli@mail.ru
+      name: mikhail
+      password: $2b$12$v909w8F.4WJA7gZkkpBUfeYouGP/EFNTme5HtadB.Y7axsRYoQUla
+preauthorized:
+  emails: boss2@mail.ru
