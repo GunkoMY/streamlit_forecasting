@@ -82,7 +82,7 @@ def do_analysis():
         format="MM/DD/YY")
 
     """
-    #### Таблица по параметрам товарам на исторических данных
+    #### Таблица по товарам на исторических данных
     """
     st.dataframe(data[(start_time <= data['date_date']) & (data['date_date'] <= end_time) & (data['Склад'].isin(options_product))].drop('date_date', axis=1).T, use_container_width=True,)
 
